@@ -1,51 +1,82 @@
+body {
+  overflow-y: auto;  /* Enable vertical scroll */
+}
+
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  input[type="text"] {
-    width: 300px;
-    height: 40px;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    font-size: 16px;
-  }
-  
-  .output-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-  }
-  
-  .output {
-    background-color: #f5f5f5;
-    padding: 1rem;
-    border-radius: 4px;
-    max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;  /* Padding around the container to avoid sticking to the edge */
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 20px;  /* Make corners rounded */
+  background: #f5f5f5;  /* Background color for form */
+  padding: 1rem;  /* Padding around the form elements */
+  max-width: 600px;
     width: 100%;
-  }
-  
-  h2 {
-    margin-bottom: 0.5rem;
-  }
-  
-  h3 {
-    margin-top: 1rem;
-    margin-bottom: 0.25rem;
-  }
-  
-  p {
-    margin-bottom: 0.5rem;
-  }
-  
+}
+
+input[type="text"] {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  font-size: 16px;
+  border-radius: 15px;  /* Make corners of input fields rounded */
+  border: 1px solid #ccc;  /* Add a border to input fields */
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;  /* Green background */
+  color: white;  /* White text */
+  border-radius: 15px;  /* Make corners of button rounded */
+  border: none;  /* Remove border */
+  padding: 10px 20px;  /* Add some padding */
+  cursor: pointer;  /* Add a pointer cursor on mouse-over */
+}
+
+.input[type="submit"]:hover {
+  background-color: #45a049; /* Darken green color on hover */
+}
+
+.output-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.output {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 15px;  /* Make corners of output rounded */
+  max-width: 600px;
+  width: 100%;
+}
+
+h2, h3 {
+  font-family: 'Brush Script MT',
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
