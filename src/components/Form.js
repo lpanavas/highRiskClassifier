@@ -132,25 +132,7 @@ function Form() {
     
                 The relevant portions of the Act for what is High risk:
                 
-    5.2.3. HIGH-RISK AI SYSTEMS (TITLE III)
-    Title III contains specific rules for AI systems that create a high risk to the health and safety
-    or fundamental rights of natural persons. In line with a risk-based approach, those high-risk
-    AI systems are permitted on the European market subject to compliance with certain
-    mandatory requirements and an ex-ante conformity assessment. The classification of an AI
-    system as high-risk is based on the intended purpose of the AI system, in line with existing
-    product safety legislation. Therefore, the classification as high-risk does not only depend on
-    the function performed by the AI system, but also on the specific purpose and modalities for
-    which that system is used.
-    Chapter 1 of Title III sets the classification rules and identifies two main categories of highrisk AI systems:
-     AI systems intended to be used as safety component of products that are subject to
-    third party ex-ante conformity assessment;
-     other stand-alone AI systems with mainly fundamental rights implications that are
-    explicitly listed in Annex III.
-    This list of high-risk AI systems in Annex III contains a limited number of AI systems whose
-    risks have already materialised or are likely to materialise in the near future. To ensure that
-    the regulation can be adjusted to emerging uses and applications of AI, the Commission may
-    expand the list of high-risk AI systems used within certain pre-defined areas, by applying a
-    set of criteria and risk assessment methodology. 
+
     
             
             CLASSIFICATION OF AI SYSTEMS AS HIGH-RISK
@@ -276,61 +258,159 @@ function Form() {
     interpreting facts and the law and in applying the law to a concrete set of facts.
     
             
-        Here are important definitions:
-    
-            ‘biometric data’ means personal data resulting from specific technical processing
-    relating to the physical, physiological or behavioural characteristics of a natural
-    person, which allow or confirm the unique identification of that natural person, such
-    as facial images or dactyloscopic data;
-    (34) ‘emotion recognition system’ means an AI system for the purpose of identifying or
-    inferring emotions or intentions of natural persons on the basis of their biometric
-    data;
-    (35) ‘biometric categorisation system’ means an AI system for the purpose of assigning
-    natural persons to specific categories, such as sex, age, hair colour, eye colour,
-    tattoos, ethnic origin or sexual or political orientation, on the basis of their biometric
-    data;
-    (36) ‘remote biometric identification system’ means an AI system for the purpose of
-    identifying natural persons at a distance through the comparison of a person’s
-    biometric data with the biometric data contained in a reference database, and without
-    prior knowledge of the user of the AI system whether the person will be present and
-    can be identified ;
-    (37) ‘‘real-time’ remote biometric identification system’ means a remote biometric
-    identification system whereby the capturing of biometric data, the comparison and
-    the identification all occur without a significant delay. This comprises not only
-    instant identification, but also limited short delays in order to avoid circumvention.
-    (38) ‘‘post’ remote biometric identification system’ means a remote biometric
-    identification system other than a ‘real-time’ remote biometric identification system;
-    (39) ‘publicly accessible space’ means any physical place accessible to the public,
-    regardless of whether certain conditions for access may apply;
-    (40) ‘law enforcement authority’ means:
-    (a) any public authority competent for the prevention, investigation, detection or
-    prosecution of criminal offences or the execution of criminal penalties,
-    including the safeguarding against and the prevention of threats to public
-    security; or
-    (b) any other body or entity entrusted by Member State law to exercise public
-    authority and public powers for the purposes of the prevention, investigation,
-    detection or prosecution of criminal offences or the execution of criminal
-    penalties, including the safeguarding against and the prevention of threats to
-    public security;
-    (41) ‘law enforcement’ means activities carried out by law enforcement authorities for the
-    prevention, investigation, detection or prosecution of criminal offences or the
-    execution of criminal penalties, including the safeguarding against and the
-    prevention of threats to public security;
-    (42) ‘national supervisory authority’ means the authority to which a Member State assigns
-    the responsibility for the implementation and application of this Regulation, for
-    coordinating the activities entrusted to that Member State, for acting as the single
-    contact point for the Commission, and for representing the Member State at the
-    European Artificial Intelligence Board;
-    EN 43 EN
-    (43) ‘national competent authority’ means the national supervisory authority, the
-    notifying authority and the market surveillance authority;
-    (44) ‘serious incident’ means any incident that directly or indirectly leads, might have led
-    or might lead to any of the following:
-    (a) the death of a person or serious damage to a person’s health, to property or the
-    environment,
-    (b) a serious and irreversible disruption of the management and operation of
-    critical infrastructure.
-    
+        Here are some important amendments to the Act:
+        Amendment 709
+        Proposal for a regulation
+        Annex III – paragraph 1 – introductory part
+        High-risk AI systems pursuant to Article 6(2) are the AI systems listed in any of the following areas:
+          The AI systems specifically refered to in under points 1 to 8a stand for critical use cases and are each considered to be high-risk AI systems pursuant to Article 6(2), provided that they fulfil the criteria set out in that Article:
+        Amendment 710
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 1 – introductory part
+        1.  Biometric identification and categorisation of natural persons:
+          1.  Biometric and biometrics-based systems
+        Amendment 711
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 1 – point a
+        (a)  AI systems intended to be used for the ‘real-time’ and ‘post’ remote biometric identification of natural persons;
+          (a)  AI systems intended to be used for biometric identification of natural persons, with the exception of those mentioned in Article 5;
+        Amendment 712
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 1 – point a a (new)
+          (a a)  AI systems intended to be used to make inferences about personal characteristics of natural persons on the basis of biometric or biometrics-based data, including emotion recognition systems, with the exception of those mentioned in Article 5;
+          Point 1 shall not include AI systems intended to be used for biometric verification whose sole purpose is to confirm that a specific natural person is the person he or she claims to be.
+        Amendment 713
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 2 – point a
+        (a)  AI systems intended to be used as safety components in the management and operation of road traffic and the supply of water, gas, heating and electricity.
+          (a)  AI systems intended to be used as safety components in the management and operation of road, rail and air traffic unless they are regulated in harmonisation or sectoral law.
+        Amendment 714
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 2 – point a a (new)
+          (a a)  AI systems intended to be used as safety components in the management and operation of the supply of water, gas, heating, electricity and critical digital infrastructure;
+        Amendment 715
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 3 – point a
+        (a)  AI systems intended to be used for the purpose of determining access or assigning natural persons to educational and vocational training institutions;
+          (a)  AI systems intended to be used for the purpose of determining access or materially influence decisions on admission or assigning natural persons to educational and vocational training institutions;
+        Amendment 716
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 3 – point b
+        (b)  AI systems intended to be used for the purpose of assessing students in educational and vocational training institutions and for assessing participants in tests commonly required for admission to educational institutions.
+          (b)  AI systems intended to be used for the purpose of assessing students in educational and vocational training institutions and for assessing participants in tests commonly required for admission to those institutions;
+        Amendment 717
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 3 – point b a (new)
+          (b a)  AI systems intended to be used for the purpose of assessing the appropriate level of education for an individual and materially influencing the level of education and vocational training that individual will receive or will be able to access;
+        Amendment 718
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 3 – point b b (new)
+          (b b)  AI systems intended to be used for monitoring and detecting prohibited behaviour of students during tests in the context of/within education and vocational training institutions;
+        Amendment 719
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 4 – point a
+        (a)  AI systems intended to be used for recruitment or selection of natural persons, notably for advertising vacancies, screening or filtering applications, evaluating candidates in the course of interviews or tests;
+          (a)  AI systems intended to be used for recruitment or selection of natural persons, notably for placing targeted job advertisements screening or filtering applications, evaluating candidates in the course of interviews or tests;
+        Amendment 720
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 4 – point b
+        (b)  AI intended to be used for making decisions on promotion and termination of work-related contractual relationships, for task allocation and for monitoring and evaluating performance and behavior of persons in such relationships.
+          (b)  AI systems intended to be used to make or materially influence decisions affecting the initiation, promotion and termination of work-related contractual relationships, task allocation based on individual behaviour or personal traits or characteristics, or for monitoring and evaluating performance and behavior of persons in such relationships;
+        Amendment 721
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 5 – point a
+        (a)  AI systems intended to be used by public authorities or on behalf of public authorities to evaluate the eligibility of natural persons for public assistance benefits and services, as well as to grant, reduce, revoke, or reclaim such benefits and services;
+          (a)  AI systems intended to be used by or on behalf of public authorities to evaluate the eligibility of natural persons for public assistance benefits and services, including healthcare services and essential services, including but not limited to housing, electricity, heating/cooling and internet, as well as to grant, reduce, revoke, increase or reclaim such benefits and services;
+        Amendment 722
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 5 – point b
+        (b)  AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score, with the exception of AI systems put into service by small scale providers for their own use;
+          (b)  AI systems intended to be used to evaluate the creditworthiness of natural persons or establish their credit score , with the exception of AI systems used for the purpose of detecting financial fraud;
+        Amendment 723
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 5 – point b a (new)
+          (b a)  AI systems intended to be used for making decisions or materially influencing decisions on the eligibility of natural persons for health and life insurance;
+        Amendment 724
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 5 – point c
+        (c)  AI systems intended to be used to dispatch, or to establish priority in the dispatching of emergency first response services, including by firefighters and medical aid.
+          (c)  AI systems intended to evaluate and classify emergency calls by natural persons or to be used to dispatch, or to establish priority in the dispatching of emergency first response services, including by police and law enforcement, firefighters and medical aid, as well as of emergency healthcare patient triage systems;
+        Amendment 725
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 6 – point a
+        (a)  AI systems intended to be used by law enforcement authorities for making individual risk assessments of natural persons in order to assess the risk of a natural person for offending or reoffending or the risk for potential victims of criminal offences;
+          deleted
+        Amendment 726
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 6 – point b
+        (b)  AI systems intended to be used by law enforcement authorities as polygraphs and similar tools or to detect the emotional state of a natural person;
+          (b)  AI systems intended to be used by or on behalf of law enforcement authorities, or by Union agencies, offices or bodies in support of law enforcement authorities as polygraphs and similar tools, insofar as their use is permitted under relevant Union and national law;
+        Amendment 727
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 6 – point c
+        (c)  AI systems intended to be used by law enforcement authorities to detect deep fakes as referred to in article 52(3);
+          deleted
+        Amendment 728
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 6 – point d
+        (d)  AI systems intended to be used by law enforcement authorities for evaluation of the reliability of evidence in the course of investigation or prosecution of criminal offences;
+          (d)  AI systems intended to be used by or on behalf of law enforcement authorities, or by Union agencies, offices or bodies in support of law enforcement authorities to evaluate the reliability of evidence in the course of investigation or prosecution of criminal offences;
+        Amendment 729
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 6 – point e
+        (e)  AI systems intended to be used by law enforcement authorities for predicting the occurrence or reoccurrence of an actual or potential criminal offence based on profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 or assessing personality traits and characteristics or past criminal behaviour of natural persons or groups;
+          deleted
+        Amendment 730
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 6 – point f
+        (f)  AI systems intended to be used by law enforcement authorities for profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 in the course of detection, investigation or prosecution of criminal offences;
+          (f)  AI systems intended to be used by or on behalf of law enforcement authorities or by Union agencies, offices or bodies in support of law enforcement authorities for profiling of natural persons as referred to in Article 3(4) of Directive (EU) 2016/680 in the course of detection, investigation or prosecution of criminal offences or, in the case of Union agencies, offices or bodies, as referred to in Article 3(5) of Regulation (EU) 2018/1725;
+        Amendment 731
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 6 – point g
+        (g)  AI systems intended to be used for crime analytics regarding natural persons, allowing law enforcement authorities to search complex related and unrelated large data sets available in different data sources or in different data formats in order to identify unknown patterns or discover hidden relationships in the data.
+          (g)  AI systems intended to be used by or on behalf of law enforcement authorities or by Union agencies, offices or bodies in support of law enforcement authorities for crime analytics regarding natural persons, allowing law enforcement authorities to search complex related and unrelated large data sets available in different data sources or in different data formats in order to identify unknown patterns or discover hidden relationships in the data.
+        Amendment 732
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 7 – point a
+        (a)  AI systems intended to be used by competent public authorities as polygraphs and similar tools or to detect the emotional state of a natural person;
+          (a)  AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies as polygraphs and similar tools insofar as their use is permitted under relevant Union or national law
+        Amendment 733
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 7 – point b
+        (b)  AI systems intended to be used by competent public authorities to assess a risk, including a security risk, a risk of irregular immigration, or a health risk, posed by a natural person who intends to enter or has entered into the territory of a Member State;
+          (b)  AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies to assess a risk, including a security risk, a risk of irregular immigration, or a health risk, posed by a natural person who intends to enter or has entered into the territory of a Member State;
+        Amendment 734
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 7 – point c
+        (c)  AI systems intended to be used by competent public authorities for the verification of the authenticity of travel documents and supporting documentation of natural persons and detect non-authentic documents by checking their security features;
+          (c)  AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies for the verification of the authenticity of travel documents and supporting documentation of natural persons and detect non-authentic documents by checking their security features;
+        Amendment 735
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 7 – point d
+        (d)  AI systems intended to assist competent public authorities for the examination of applications for asylum, visa and residence permits and associated complaints with regard to the eligibility of the natural persons applying for a status.
+          (d)  AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies to assist competent public authorities for the examination and assessment of the veracity of evidence in relation to applications for asylum, visa and residence permits and associated complaints with regard to the eligibility of the natural persons applying for a status;
+        Amendment 736
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 7 – point d a (new)
+          (d a)  AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies in migration, asylum and border control management to monitor, surveil or process data in the context of border management activities, for the purpose of detecting, recognising or identifying natural persons;
+        Amendment 737
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 7 – point d b (new)
+          (d b)  AI systems intended to be used by or on behalf of competent public authorities or by Union agencies, offices or bodies in migration, asylum and border control management for the forecasting or prediction of trends related to migration movement and border crossing;
+        Amendment 738
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 8 – point a
+        (a)  AI systems intended to assist a judicial authority in researching and interpreting facts and the law and in applying the law to a concrete set of facts.
+          (a)  AI systems intended to be used by a judicial authority ot administrative body or on their behalf to assist a judicial authority or administrative body in researching and interpreting facts and the law and in applying the law to a concrete set of facts or used in a similar way in alternative dispute resolution.
+        Amendment 739
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 8 – point a a (new)
+          (a a)  AI systems intended to be used for influencing the outcome of an election or referendum or the voting behaviour of natural persons in the exercise of their vote in elections or referenda. This does not include AI systems whose output natural persons are not directly exposed to, such as tools used to organise, optimise and structure political campaigns from an administrative and logistic point of view.
+        Amendment 740
+        Proposal for a regulation
+        Annex III – paragraph 1 – point 8 – point a b (new)
+          (a b)  AI systems intended to be used by social media platforms that have been designated as very large online platforms within the meaning of Article 33 of Regulation EU 2022/2065, in their recommender systems to recommend to the recipient of the service user-generated content available on the platform.
     
          Now, I want you to classify the following AI technology using a three-tier classification: Unacceptable Risk, High Risk, and Not Classified as High Risk or Unacceptable Risk. Follow these steps:
     
@@ -357,10 +437,10 @@ function Form() {
                 `,
         },
       ],
-      max_tokens: 2000,
+      max_tokens: 500,
       temperature: 0,
     });
-
+    console.log(response.data.choices[0].message.content);
     setOutput(response.data.choices[0].message.content);
     setLoading(false); // Set loading to false when the request completes
   };
