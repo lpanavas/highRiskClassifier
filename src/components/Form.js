@@ -415,8 +415,7 @@ function Form() {
          Now, I want you to classify the following AI technology using a three-tier classification: Unacceptable Risk, High Risk, and Not Classified as High Risk or Unacceptable Risk. Follow these steps:
     
                 1. First, right a brief description of teh AI system. It should have a similar language to the EU AI act language. It should always follow the form "AI systems intended to be used ..." and never be more than two sentenes.
-                2. First, determine whether the AI technology is of Unacceptable Risk. If it is, provide the exact text from the Act and explain how you arrived at this conclusion.
-                3. If it's not of Unacceptable Risk, determine whether it's High Risk. Again, refer to the exact text from the Act and explain your reasoning.
+                2. First, determine whether the AI technology is of Unacceptable Risk or high risk provide the exact text from the Act and explain how you arrived at this conclusion. Think the response through. Particularly note exceptions. To be unacceptbale risk it should be very clear that it is unacceptbale. Otherwise it should fall into high risk. Be very careful to not make it unacceptble risk. Be very strict with unacceptbale. Assume high risk unless there is strong evidence for unacceptbale.
                 4. If it's neither High Risk nor Unacceptable Risk, then it must be classified as Not Classified as High Risk or Unacceptable Risk.
     
                 Here is the AI technology:
@@ -425,7 +424,10 @@ function Form() {
          "Purpose: ${purpose}",
          "Capability: ${aiCapability}",
          "AI User: ${aiUser}",
-         "AI subject: ${aiSubject}"
+         "AI subject: ${aiSubject}" - This is who the technology is used on. Make sure that if it is used on this person it does not change classification. It might be something like "unless and in as far as
+         such use is strictly necessary for one of the following objectives:
+          the targeted search for specific potential victims of crime, including
+         missing children;" which would would lower the classification from unaccpetable to high risk
     
     
      please return this information in a json format. Do not add any headings. only use the following keys. No additional headings!!!.
