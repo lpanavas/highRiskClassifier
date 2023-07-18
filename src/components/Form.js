@@ -360,7 +360,7 @@ function Form() {
       max_tokens: 2000,
       temperature: 0,
     });
-    console.log(response.data.choices[0].message.content);
+
     setOutput(response.data.choices[0].message.content);
     setLoading(false); // Set loading to false when the request completes
   };
