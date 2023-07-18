@@ -258,7 +258,7 @@ function Form() {
     interpreting facts and the law and in applying the law to a concrete set of facts.
     
             
-        Here are some important amendments to the Act:
+    Here are some important amendments to the Act. It is very important we use these in our answer. Please read them carefully:
         Amendment 709
         Proposal for a regulation
         Annex III – paragraph 1 – introductory part
@@ -414,29 +414,25 @@ function Form() {
     
          Now, I want you to classify the following AI technology using a three-tier classification: Unacceptable Risk, High Risk, and Not Classified as High Risk or Unacceptable Risk. Follow these steps:
     
-                1. First, right a brief description of teh AI system. It should have a similar language to the EU AI act language. It should always follow the form "AI systems intended to be used ..." and never be more than two sentenes.
-                2. First, determine whether the AI technology is of Unacceptable Risk or high risk provide the exact text from the Act and explain how you arrived at this conclusion. Think the response through. Particularly note exceptions. To be unacceptbale risk it should be very clear that it is unacceptbale. Otherwise it should fall into high risk. Be very careful to not make it unacceptble risk. Be very strict with unacceptbale. Assume high risk unless there is strong evidence for unacceptbale.
-                4. If it's neither High Risk nor Unacceptable Risk, then it must be classified as Not Classified as High Risk or Unacceptable Risk.
-    
-                Here is the AI technology:
-    
-             "Domain: ${domain}",
+         1. Write a brief description of the AI system, using similar language to the EU AI Act. The description should start with "AI systems intended to be used ..." and be no longer than two sentences.
+         2. Determine whether the AI technology is of Unacceptable Risk or High Risk, providing the exact text from the Act and explaining the reasoning. Be very strict and verify the reasoning. Assume High Risk unless there is strong evidence for Unacceptable Risk. Pay particular attention to the subject and user of the AI system, as this is critical for classification. Ensure that the subject and user align with the text. They are very important. 
+         3. Go through all the amendments to the Act and ensure that nothing has changed that would affect the classification. If something has changed, update the classification accordingly. Explicitly reference the amendment that most closely resembles the AI technology. The amednments can be found under the text : "Here are some important amendments to the Act:"
+         4. If the AI system is neither High Risk nor Unacceptable Risk, classify it as Not Classified as High Risk or Unacceptable Risk.
+
+         Here are the details of the AI technology:
+         "Domain: ${domain}",
          "Purpose: ${purpose}",
          "Capability: ${aiCapability}",
          "AI User: ${aiUser}",
-         "AI subject: ${aiSubject}" - This is who the technology is used on. Make sure that if it is used on this person it does not change classification. It might be something like "unless and in as far as
-         such use is strictly necessary for one of the following objectives:
-          the targeted search for specific potential victims of crime, including
-         missing children;" which would would lower the classification from unaccpetable to high risk
-    
-    
-     please return this information in a json format. Do not add any headings. only use the following keys. No additional headings!!!.
-                { Description: "AI systems intended to be used ..."
-                 Classification: [Unacceptable Risk/High Risk/Not Classified as High Risk or Unacceptable Risk]
-                 Relevant Text from the Act: [Quotation if applicable]
-                 Reasoning: [Explanation]
-            }
-                `,
+         "AI Subject: ${aiSubject}"
+         
+         Please return the classification in the following format:
+         { 
+           "Description": "AI systems intended to be used ...",
+           "Classification": ["Unacceptable Risk"/"High Risk"/"Not Classified as High Risk or Unacceptable Risk"],
+           "Relevant Text from the Act": "[Quotation if applicable] - Include the amendment that mostly closely resembles the text.",
+           "Reasoning": "[Explanation]"
+         }`,
         },
       ],
       max_tokens: 500,
