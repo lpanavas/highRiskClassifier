@@ -459,6 +459,17 @@ function Form() {
     });
   }
 
+  let parsedOutput;
+  let parseError = false;
+
+  try {
+    // Try to parse the output as JSON
+    parsedOutput = JSON.parse(output);
+  } catch (error) {
+    // If parsing fails, flag it as an error
+    parseError = true;
+  }
+
   return (
     <div className="container">
       <h1>
@@ -521,7 +532,16 @@ function Form() {
       {output && (
         <div className="output">
           <h2>Output:</h2>
-          {renderData(JSON.parse(output))}
+          {
+            // Check if there was a parse error
+            parseError ? (
+              // If there was, just print the output as is
+              <div>{output}</div>
+            ) : (
+              // If not, render the parsed JSON data
+              renderData(parsedOutput)
+            )
+          }
         </div>
       )}
     </div>
